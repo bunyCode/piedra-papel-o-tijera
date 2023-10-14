@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/piedra-papel-tijeras.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Piedra papel o tijera</title>
+
+</head>
+
+<body>
+  <div id="app">
+    <div class="puntaje" id="puntaje">
+      <h2 class="TuPuntaje">Tu: <span id="puntajeUno">0</span></h2>
+      <h2 class="PuntajePC">PC: <span id="puntajePC">0</span></h2>
+    </div>
+    <h1>Piedra papel o tijera </h1>
+    <button class="eleccion">Piedra</button>
+    <button class="eleccion">Papel</button>
+    <button class="eleccion">Tijera</button>
+    <div id="combate" class="combate">
+      <h2>Has <span id="escogido"></span> y el PC a escogio <span id="pc"></span>, <span id="resultado"></span>
+      </h2>
+      <button id="ok" class="ok">OK</button>
+    </div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
